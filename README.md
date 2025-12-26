@@ -19,7 +19,7 @@ The project is built to understand **core MLOps concepts** such as automation, r
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - Python 3.10  
 - scikit-learn  
 - pytest  
@@ -29,7 +29,7 @@ The project is built to understand **core MLOps concepts** such as automation, r
 
 ---
 
-## 🔁 CI/CD Workflow
+## CI/CD Workflow
 
 ### Continuous Integration (CI)
 Triggered on every push or pull request:
