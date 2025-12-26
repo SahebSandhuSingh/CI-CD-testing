@@ -19,18 +19,16 @@ The project is built to understand **core MLOps concepts** such as automation, r
 ## 🧱 Project Structure
 CI-CD-testing/
 ├── model/
-│ ├── init.py
-│ └── train.py
+│   ├── __init__.py
+│   └── train.py
 ├── tests/
-│ └── test_model.py
+│   └── test_model.py
 ├── Dockerfile
 ├── requirements.txt
 ├── README.md
 └── .github/
-└── workflows/
-└── ci.yml
-
-
+    └── workflows/
+        └── ci.yml
 ---
 
 ## ⚙️ Tech Stack
@@ -76,6 +74,5 @@ The project is containerized to:
 ---
 
 ## Building Docker Image on Local Mahcine
-Build and run Docker image
 docker build -t ml-ci-cd .
 docker run ml-ci-cd
