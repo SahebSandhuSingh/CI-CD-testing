@@ -1,6 +1,6 @@
-# 🚀 ML CI/CD Pipeline with GitHub Actions & Docker
+# ML CI/CD Pipeline with GitHub Actions & Docker
 
-## 📌 Overview
+## Overview
 This project demonstrates a **complete CI/CD pipeline for a machine learning project** using **GitHub Actions** and **Docker**.  
 Every code change is automatically **tested**, **containerized**, and **delivered** as a Docker image.
 
@@ -8,7 +8,7 @@ The project is built to understand **core MLOps concepts** such as automation, r
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Automate testing of ML code using CI
 - Ensure reproducible environments using Docker
 - Deliver deployable ML artifacts automatically
@@ -16,19 +16,6 @@ The project is built to understand **core MLOps concepts** such as automation, r
 
 ---
 
-## 🧱 Project Structure
-CI-CD-testing/
-├── model/
-│   ├── __init__.py
-│   └── train.py
-├── tests/
-│   └── test_model.py
-├── Dockerfile
-├── requirements.txt
-├── README.md
-└── .github/
-    └── workflows/
-        └── ci.yml
 
 ---
 
@@ -59,7 +46,7 @@ After CI passes:
 
 ---
 
-## 🐳 Dockerization
+## Dockerization
 The project is containerized to:
 - Ensure consistent runtime environments
 - Avoid dependency-related issues
@@ -67,7 +54,7 @@ The project is containerized to:
 
 ---
 
-## 🔐 Security
+## Security
 - Docker Hub credentials are stored using **GitHub Secrets**
 - No sensitive information is hardcoded
 - Supports private Docker repositories
