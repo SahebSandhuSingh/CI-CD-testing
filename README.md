@@ -4,7 +4,7 @@
 This project demonstrates a **complete CI/CD pipeline for a machine learning project** using **GitHub Actions** and **Docker**.  
 Every code change is automatically **tested**, **containerized**, and **delivered** as a Docker image.
 
-The project is built to understand **core MLOps concepts** such as automation, reproducibility, and continuous delivery.
+The project is built to understand **core MLOps concepts** such as automation, reproducibility and continuous delivery.
 
 ---
 
@@ -64,3 +64,5 @@ The project is containerized to:
 ## Building Docker Image on Local Mahcine
 docker build -t ml-ci-cd .
 docker run ml-ci-cd
+
+##Next step is for kubernetes
